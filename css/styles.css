@@ -1,0 +1,37 @@
+h1{
+    font-family: 'Gochi Hand', cursive;
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+  padding: 0;
+}
+li{
+    float: left;
+}
+li a{
+    display: inline;
+    color: cyan;
+    padding: 15px 20px;
+}
+.navi{
+    border: 2px 2px transparent;
+    box-shadow: 2px 2px 5px coral;
+}
+#home{
+    background-image:url("https://bit.ly/2EfwdOk") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h2{
+    padding-top:30px;
+    text-align: center;
+    color: blanchedalmond;
+    text-shadow:3px 3px 5px brown;
+    font-size: 80px;
+}
+.aboutus{
+    text-align: center;
+}
