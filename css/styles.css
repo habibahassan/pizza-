@@ -59,3 +59,11 @@ h2{
     padding-top: 80px;
     padding-left:40px;
 }
+#order-pizza {
+    color: #000;
+}
+
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
