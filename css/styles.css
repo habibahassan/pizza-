@@ -12,7 +12,7 @@ li{
 }
 li a{
     display: inline;
-    color: cyan;
+    color: blue;
     padding: 15px 20px;
 }
 .navi{
@@ -34,6 +34,7 @@ h2{
 }
 .aboutus{
     text-align: center;
+    background-color: white;
 }
 .menu h3{
     text-align: center;
@@ -41,13 +42,20 @@ h2{
     font-weight: bolder;
     margin-top: 50px;
 }
-.row{
+.menu .row{
     display:flex;
-    flex-direction: row;
     justify-content: space-around;
     margin-right:100px;
     margin-left: 100px;
 }
 .menu img{
     display:block;
+}
+.menu p{
+    text-align: center;
+    display: none;
+    position: absolute;
+    font-size: 40px;
+    padding-top: 80px;
+    padding-left:40px;
 }
