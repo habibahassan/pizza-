@@ -31,8 +31,9 @@ h2{
     padding-top:30px;
     text-align: center;
     color: blanchedalmond;
-    text-shadow:2px 2px 5px brown;
-    font-size: 80px;
+    text-shadow:2px 2px 5px white;
+    font-size: 500px;
+
 }
 .aboutus{
     text-align: center;
@@ -58,11 +59,6 @@ h4{
 #list li {
     font-size: 24px;
 
-}
-.order-summary h3, .summary {
-    color:brown;
-    margin-top: 30px;
-    text-align: center;
 }
 .click-me {
     margin-top: 20px;
@@ -115,7 +111,9 @@ h4{
 .pizz {
     color: blue;
 }
-
+h5{
+   color: teal;
+}
 
 
     
