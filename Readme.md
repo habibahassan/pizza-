@@ -9,7 +9,7 @@ Open your mobile data and go to your browser open github and git clone my reposi
 * JAVASCRIPT
 * J-QUERY
 ## Contributing
-Pull request is welcome for any information.
+Pull request is welcome for any information contact me on my number or email.
 ### Link to project
 url(https://habibahassan.github.io/pizza-/)
 ## Author and acknowledgment
