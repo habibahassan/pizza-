@@ -97,7 +97,7 @@
 
 
 
-        <div class="orders" id="order">
+        <div class="orders" id="orders">
             <h3 class="text-center" id="order-pizza">Orders</h3>
             <div class="form-group row">
                 <div class="col-sm-2"></div>
@@ -122,7 +122,7 @@
                         </select>
                         <label for="crust">Choose your favorite Crust:</label>
                         <select class="custom-select custom-select-md mb-3" id="crust" required>
-                            <option value="thincrust">Thin Crust @ Ksh. 120</option>
+                            <option value="thincrust">Thin Crust @ Ksh. 150</option>
                             <option value="thickcrust">Thick Crust @ Ksh. 180</option>
                             <option value="flatbreadcrust">FlatBread Crust @ sh. 200</option>
                             <option value="customcrust">Custom Crust @ sh. 300</option>
@@ -147,44 +147,44 @@
                         <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1"
                             required>
 
-
+                            <div class="order-summary" id="sum-order" style="text-align: center;">
+                                    <h1 class="text-center" id="summary">Order Summary</h1>
+                                    <h3 class="text-center summary">Hey, your order is as follows:</h3>
+                                    <ol id="list" class="text-center sum">
+                                    </ol>
+                                    <div class="cdata-overlay">
+                                        <div class="customerdata row">
+                                            <div class="col-sm-3"></div>
+                                            <form action="" class="form-group col-sm-6 data">
+                                                <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                                                <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                                                <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                                                <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                                            </form>
+                                
+                                            <div class="col-sm-3"></div>
+                                        </div>
+                                    </div>
+                                    <div class="d-block mx-auto text-center">
+                                        <button class='deliver'>Make Delivery</button>
+                                        <button class='delivernot'>Pick Up</button>
+                                        <a href="#summary">
+                                                <button type="submit" class="btn btn-success checkout" id="checkout">
+                                                    Checkout
+                                                </button>
+                                            </a>
+                                    </div>
+                                </div>  
+                                
                     </form>
-                    <a href="#summary">
-                        <button type="submit" class="btn btn-success checkout" id="checkout">
-                            Checkout
-                        </button>
-                    </a>
+                   
 
                 </div>
-                <div class="order-summary" id="sum-order">
-                        <h1 class="text-center" id="summary">Order Summary</h1>
-                        <h3 class="text-center summary">Hey, your order is as follows:</h3>
-                        <ol id="list" class="text-center sum">
-                        </ol>
-                <.....
+               
                     
-                        <div class="cdata-overlay">
-                            <div class="customerdata row">
-                                <div class="col-sm-3"></div>
-                                <form action="" class="form-group col-sm-6 data">
-                                    <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                                    <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                                    <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                                    <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
-                                </form>
-                    
-                                <div class="col-sm-3"></div>
-                            </div>
-                        </div>
-                        <div class="d-block mx-auto text-center">
-                            <button class='deliver'>Make Delivery</button>
-                            <button class='delivernot'>Pick Up</button>
-                        </div>
-                    </div>
-                    
-                    <div class="contacts">
+                    <div class="contact">
                         <div class="contact-overlay">
-                            <h1 class="text-center contact text-white">Contact us:</h1>
+                            <h3 class="text-center contact text-white">Contact us:</h3>
                             <div class="row">
                                 <div class="col-sm-1"></div>
                                 <div class="col-sm-5 subs">
@@ -203,7 +203,7 @@
                                     </form>
                                 </div>
                                 <div class="col-sm-5">
-                                    <h4 class="text-center get-pizza">We love your feedback send us a mail</h4>
+                                    <h4 class="text-center get-pizza">We love your feedback send us an email</h4>
                                 </div>
                                 <div class="col-sm-1"></div>
                             </div>
