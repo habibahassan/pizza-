@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 h1{
     font-family: 'Gochi Hand', cursive;
     color: black;
+    font-size: 60px;
 }
 .nav ul{
     list-style-type: none;
     margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 li{
     float: left;
@@ -43,8 +44,15 @@ h2{
     font-weight: bolder;
     margin-top: 50px;
 }
-#order-pizza {
-    color: #000;
+#order {
+    background-color: #000;
+}
+label{
+    color: white;
+}
+h4{
+    color: white;
+    text-align: center;
 }
 
 #list li {
@@ -56,25 +64,6 @@ h2{
     margin-top: 30px;
     text-align: center;
 }
-
-.contact {
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.contact-overlay {
-    height: inherit;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-
-input[type="email"] {
-    background: transparent;
-    border: 1px solid #ffffff;
-    padding: .8em .7em;
-    border-radius: 20px;
-    font-size: 14px;
-}
-
 .click-me {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -84,9 +73,6 @@ input[type="email"] {
     margin-top: 40px;
 }
 
-.contact {
-    padding-top: 20px;
-}
 
 .cdata {
     margin-top: 20px;
@@ -115,21 +101,6 @@ input[type="email"] {
     border: none;
     border-radius: 33px;
     font-size: 14px;
-}
-
-.deliver, .delivernot {
-    margin: 10px;
-}
-#order-pizza {
-    padding: 20px 50px 20px 50px;
-    font-family: 'Gushi Hand', cursive;
-}
-
-.order-overlay {
-    height: inherit;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
-    border-radius: 20px;
 }
 
 .checkout {
