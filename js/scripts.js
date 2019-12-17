@@ -7,7 +7,6 @@ $("document").ready(function () {
         var quantity = parseInt($("#number").val());
         var totalPrice = sumTotal * quantity;
         alert("This is your total cost thank you for ordering " + totalPrice);
-
     });
     $("#delivery").submit(function (event) {
 
