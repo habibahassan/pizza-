@@ -10,7 +10,9 @@ Open your mobile data and go to your browser open github and git clone my reposi
 * J-QUERY
 ## Contributing
 Pull request is welcome for any information contact me on my number or email.
-### Link to project
+### Code Beat
+ [![codebeat badge](https://codebeat.co/badges/59952519-0b99-4c9d-bbd6-0f6c642b544c)](https://codebeat.co/projects/github-com-habibahassan-pizza-master)
+## Link to project
 url(https://habibahassan.github.io/pizza-/)
 ## Author and acknowledgment
 By Habiba Hassan
