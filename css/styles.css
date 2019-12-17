@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 h1{
     font-family: 'Anton', sans-serif;
@@ -8,7 +9,7 @@ h1{
     list-style-type: none;
     margin: 0;
   padding: 0;
-  overflow: hidden;
+   overflow: hidden;
 }
 li{
     float: left;
@@ -98,10 +99,11 @@ h4{
     border: none;
     border-radius: 33px;
     font-size: 14px;
+    width: 200px;
 }
 
 .checkout {
-    border-radius: 20px;
+    border-radius: 50px;
     margin-top: 20px;
 }
 
@@ -121,11 +123,16 @@ h4{
         height: 1000px;
         overflow-x: hidden;
     }
+}
     @media (min-width: 800px) and (max-width: 850px) {
         html,
         body,
         header,
         .view {
-            height: 650px;
+            height: 800px;
         }
 /* Media Queries end*/
+    }
+    body{
+        overflow-x: hidden;
+    }
