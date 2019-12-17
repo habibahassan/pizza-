@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 h1{
-    font-family: 'Gochi Hand', cursive;
+    font-family: 'Anton', sans-serif;
     color: black;
     font-size: 60px;
 }

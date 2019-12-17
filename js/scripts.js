@@ -99,7 +99,7 @@ $("document").ready(function () {
 //         var number = $("input#number", this).val();
 //         var location = $("input#location", this).val();
 
-//         alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " + location + " within one hour.The delivery will cost ksh 180/= Thank you for choosing shizuucane pizza palace.");
+//         alert("Hello " + name + ". Your order has been successfuly received and will be delivered to " + location + " within one hour.The delivery will cost ksh 180/= Thank you for choosing habib pizza.");
 //         // $(this).get(0).reset();
 //         event.preventDefault();
 //     });
